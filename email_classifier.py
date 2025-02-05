@@ -39,6 +39,6 @@ if st.button("Classer l'email"):
         if result == 0:
             st.success("Cet email est **safe**.")
         else:
-            st.error("Cet email est **phishing**.")
+            st.error("Cet email est **phishing** ou **spam**.")
     else:
         st.warning("Veuillez entrer un email à analyser.")
